@@ -499,6 +499,19 @@ span {
     width: 100%;
   }
 }
+@media (max-width: 375px) {
+  .footer {
+    flex-direction: column-reverse;
+  }
+  .footer p {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .contact {
+    min-height: 80vh;
+    width: 100%;
+  }
+}
 
 @media (max-width: 320px) {
   .home-img img {
